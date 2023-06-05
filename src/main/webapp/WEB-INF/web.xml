@@ -12,6 +12,22 @@
         <servlet-name>Objects</servlet-name>
         <servlet-class>com.rafael.servlets.Objects</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>AddImage</servlet-name>
+        <servlet-class>com.rafael.servlets.AddImage</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ListImages</servlet-name>
+        <servlet-class>com.rafael.servlets.ListImages</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UpdateImage</servlet-name>
+        <servlet-class>com.rafael.servlets.UpdateImage</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeleteImage</servlet-name>
+        <servlet-class>com.rafael.servlets.DeleteImage</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Login</servlet-name>
         <url-pattern>/Login</url-pattern>
@@ -23,6 +39,22 @@
     <servlet-mapping>
         <servlet-name>Objects</servlet-name>
         <url-pattern>/Objects</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddImage</servlet-name>
+        <url-pattern>/AddImage</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ListImages</servlet-name>
+        <url-pattern>/ListImages</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UpdateImage</servlet-name>
+        <url-pattern>/UpdateImage</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteImage</servlet-name>
+        <url-pattern>/DeleteImage</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

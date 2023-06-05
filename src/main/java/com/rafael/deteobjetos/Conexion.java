@@ -11,8 +11,8 @@ import java.sql.*;
 public class Conexion {
     public static Connection con;
     private static String bd = "deteccion";
-    private static String usr = "root";
-    public static String passw = "burr0510";
+    private static String usr = "admin";
+    public static String passw = "1234";
     public static String url = "jdbc:mysql://localhost:3306/"+bd;
     
     public static Connection abrir(){

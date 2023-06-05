@@ -7,7 +7,8 @@ public class ObjectCamera {
     private String name;
     private String route;
     private int id;
-
+    private TypeObject type;
+    
     public String getName() {
         return name;
     }
@@ -30,6 +31,14 @@ public class ObjectCamera {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public TypeObject getType() {
+        return type;
+    }
+
+    public void setType(TypeObject type) {
+        this.type = type;
     }
     
     public JSONObject parsetToJson(){
